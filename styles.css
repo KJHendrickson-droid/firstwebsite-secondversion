@@ -78,6 +78,7 @@ ABOUT
 
 #about {
   padding: 48px 0px;
+  background-color: #f8ffdc;
 }
 
 h2 {
@@ -99,3 +100,18 @@ h2 {
 .img {
   width: 100%;
 }
+
+.section__description--wrapper {
+  width: 60%;
+}
+
+.about__img--wrapper,
+.section__description--wrapper {
+  padding: 0px 24px;
+}
+.section__description--para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
