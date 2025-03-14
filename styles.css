@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -11,13 +12,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;
+  padding: 0px 16px 0px 16px;
   background-color: #cafdff;
 }
 
 header {
   background-color: #eadcff;
   height: calc(100vh - 70px);
+  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +31,7 @@ h1 {
 
 .subheader {
   font-size: 36px;
+  margin: 16px 0px 24px 0px;
 }
 
 button {
@@ -57,4 +60,22 @@ ul {
 li {
   list-style-type: none;
   padding-left: 16px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+
+ABOUT
+
+*/
+
+#about {
+  padding: 48px 0px;
 }
