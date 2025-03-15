@@ -145,6 +145,12 @@ form {
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  marigin 0 auto;
-  
+  margin: 0 auto;
+
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
 }
