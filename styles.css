@@ -31,7 +31,7 @@ h1 {
 
 .subheader {
   font-size: 36px;
-  margin: 16px 0px 24px 0px;
+  margin: 24px 0px 24px 0px;
 }
 
 button {
@@ -148,6 +148,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0px 24px 0px 24px;
 }
 
 input,
@@ -228,5 +229,23 @@ footer {
 
   .about__img--wrapper {
     width: 100%;
+  }
+
+  #discord .section__description {
+    flex-direction: column-reverse;
+  }
+
+  .footer {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .footer__logo {
+    max-width: 360px;
+  }
+
+  .footer__links {
+    padding: 0px 4px;
+    font-size: 18px;
+    margin-bottom: 24px;
   }
 }
